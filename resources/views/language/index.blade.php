@@ -21,7 +21,8 @@
             @endforeach
             </tbody>
         </table>
-        <a href="{{route('languages.create')}}" class="btn btn-info">Create</a>
+        <a href="{{route('languages.create')}}" class="btn btn-info">Language Create</a>
         <a href="{{route('tutors.index')}}" class="btn btn-warning">Tutor List</a>
+        <a href="{{url('/')}}" class="btn btn-secondary">Home</a>
     </div>
 @endsection

@@ -93,8 +93,15 @@
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://vapor.laravel.com">Vapor</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <br>
+                    <hr>
+                    <a href="{{route('languages.create')}}" style="background:#117a8b;color:white">Language Create</a>
+                    <a href="{{route('languages.index')}}" style="background:#117a8b;color:white">Language List</a>
+                    <a href="{{route('tutors.create')}}" style="background:#ffc107;color:white">Tutor Create</a>
+                    <a href="{{route('tutors.index')}}" style="background:#ffc107;color:white">Tutor List</a>
                 </div>
             </div>
         </div>
+
     </body>
 </html>

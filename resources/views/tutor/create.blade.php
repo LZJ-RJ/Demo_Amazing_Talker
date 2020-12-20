@@ -41,6 +41,9 @@
             <input type="submit" value="submit" class="btn btn-success">
         </form>
         <hr>
-        <a href="{{route('languages.index')}}" class="btn btn-info">List</a>
+        <a href="{{route('tutors.index')}}" class="btn btn-warning">Tutor List</a>
+        <a href="{{route('languages.index')}}" class="btn btn-info">Language List</a>
+        <a href="{{url('/')}}" class="btn btn-secondary">Home</a>
+
     </div>
 @endsection
