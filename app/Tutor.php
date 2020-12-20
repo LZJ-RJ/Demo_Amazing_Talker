@@ -3,9 +3,6 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use App\Language;
-use App\TutorLanguage;
-use App\TutorLessonPrice;
 
 class Tutor extends Model
 {

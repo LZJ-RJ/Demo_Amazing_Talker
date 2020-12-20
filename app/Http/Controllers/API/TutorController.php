@@ -9,7 +9,6 @@ use Illuminate\Http\Request;
 use App\Tutor;
 use App\TutorLanguage;
 use App\TutorLessonPrice;
-use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Cache;
 
 class TutorController extends Controller
@@ -33,7 +32,6 @@ class TutorController extends Controller
         }
 
         return json_encode($getTutorByTutorSlugCache);
-
     }
 
     public function create()

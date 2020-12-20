@@ -2,7 +2,6 @@
 
 namespace App\Jobs;
 
-use App\Language;
 use App\Tutor;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
